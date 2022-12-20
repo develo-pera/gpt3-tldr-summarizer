@@ -48,7 +48,7 @@ const Home = () => {
           <div className="prompt-container">
             <textarea
               className="prompt-box"
-              placeholder="start typing here"
+              placeholder="Paste text you want to summarize here"
               value={userInput}
               onChange={onUserChangedText}
             />
